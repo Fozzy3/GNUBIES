@@ -76,6 +76,7 @@ export default function Form() {
     }
 
     return (
+        <div className="p-3">
         <form onSubmit={submit} className="space-y-6 p-6 bg-gradient-animated bg-400% animate-gradient shadow-md rounded-lg max-w-screen-sm mx-auto">
             <label htmlFor="name" className="block text-xl">
                 Nombre completo:
@@ -165,5 +166,6 @@ export default function Form() {
 
             {responseMessage && <p className="mt-4 text-green-500">{responseMessage}</p>}
         </form>
+        </div>
     )
 }

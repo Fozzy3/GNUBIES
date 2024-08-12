@@ -1,13 +1,19 @@
 ---
-
+const logoSrc = '/LogoGlud.png';
+const udSrc = '/ud.png';
 ---
 
 <header class="py-8 px-4 mx-auto max-w-xl lg:py-10 lg:px-6">
     <div class="mx-auto text-center mb-8 lg:mb-16">
-        <h2 class="mb-4 text-8xl tracking-tight font-extrabold text-white">
-            GNUBIES
-        </h2>
-        <h3 class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        <div class="logo-container flex flex-col md:flex-row items-center justify-center space-y-4 lg:space-y-0 lg:space-x-4">
+            <img src={logoSrc} alt="Logo Glud" class="logo" />
+            <h2 class="text-4xl lg:text-8xl tracking-tight font-extrabold text-white">
+                GNUBIES
+            </h2>
+            <img src={udSrc} alt="Logo Ud"  class="logo hidden md:block"/>
+        </div>
+
+        <h3 class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-white">
             2024-III
         </h3>
         <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
