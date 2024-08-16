@@ -158,7 +158,7 @@ export default function Form() {
 
                 <label className="flex items-center">
                     <input type="checkbox" id="W12pm2pm" name="schedule" value="Miércoles 12m - 2pm (Macarena)" className="mr-2" onChange={handleScheduleChange} />
-                    Miércoles 12m - 2pm (Macarena)
+                    Miércoles 12m - 2pm (Facultad de Ciencias Matemáticas y Naturales)
                 </label>
             </div>
 
