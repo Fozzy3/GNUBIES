@@ -131,6 +131,11 @@ export default function Form() {
                 ¿A qué horario deseas ingresar? Selecciona uno o todos los que te sirvan, serás asignado según disponibilidad:
             </label>
             <div className="space-y-2 text-xl">
+                                <label className="flex items-center">
+                    <input type="checkbox" id="L2pm4pm" name="schedule" value="Lunes 8am - 10am (Virtual)" className="mr-2" onChange={handleScheduleChange} />
+                    Lunes 8am - 10am (Virtual)
+                </label>
+
                 <label className="flex items-center">
                     <input type="checkbox" id="L2pm4pm" name="schedule" value="Lunes 2pm - 4pm (Facultad de ingeniería)" className="mr-2" onChange={handleScheduleChange} />
                     Lunes 2pm - 4pm (Facultad de ingeniería)
